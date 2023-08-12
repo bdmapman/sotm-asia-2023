@@ -1,8 +1,13 @@
 import React from "react";
-import { Button } from "antd";
+import { Button, Col, Row, Card } from "antd";
 import "./content.styles.css";
 
 import bgImgTopo from "../../assets/2023-bg-topo.png";
+import icProposalCard1 from "../../assets/bg-svg/ic_proposal_card_1.svg";
+import icProposalCard2 from "../../assets/bg-svg/ic_proposal_card_2.svg";
+import icProposalCard3 from "../../assets/bg-svg/ic_proposal_card_3.svg";
+
+const { Meta } = Card;
 
 export const HomepageProposalPanel = () => {
     const onProposalBtnClick = () => {
@@ -37,18 +42,64 @@ export const HomepageProposalPanel = () => {
             >
                 <p className="section-heading dark-section-text">Call for Proposals</p>
                 <p className="section-content-text dark-section-text">
-                    We are now accepting proposals for presentations (25 mins), workshops (2-4 hours), and lightning talks (5-10 mins) for
-                    FOSS4G Thailand and State of the Map Asia 2023.If you have something to share in geospatial technology, cartography,
-                    community building, or any other related field, we encourage you to submit your proposals and be a part of this
-                    enriching event.
+                    We are now accepting proposals for the FOSS4G Thailand and State of the Map Asia 2023.If you have
+                    something to share in geospatial technology, cartography, community building, or any other related field, we encourage
+                    you to submit your proposals and be a part of this enriching event. <br />
+                    Should you have any questions or require further information please contact us at <br />
+                    <a href="stateofthemapasia@gmail.com">stateofthemapasia@gmail.com</a>
                 </p>
+
+                <Row gutter={16} style={{padding: 30}}>
+                    <Col span={8}>
+                        <Card
+                            hoverable
+                            style={{
+                                display: "flex",
+                                flexDirection: "column",
+                                width: 240,
+                                justifyContent: "center",
+                                alignItems: "center",
+                            }}
+                            cover={<img style={{ height: 160, padding: 10 }} alt="example" src={icProposalCard1} />}
+                        >
+                            <Meta style={{ textAlign: "center" }} title="PRESENTATION" description="25 Minutes" />
+                        </Card>
+                    </Col>
+                    <Col span={8}>
+                        <Card
+                            hoverable
+                            style={{
+                                display: "flex",
+                                flexDirection: "column",
+                                width: 240,
+                                justifyContent: "center",
+                                alignItems: "center",
+                            }}
+                            cover={<img style={{ height: 160, padding: 10 }} alt="example" src={icProposalCard2} />}
+                        >
+                            <Meta style={{ textAlign: "center" }} title="WORKSHOPS" description="2-4 Hours" />
+                        </Card>
+                    </Col>
+                    <Col span={8}>
+                        <Card
+                            hoverable
+                            style={{
+                                display: "flex",
+                                flexDirection: "column",
+                                width: 240,
+                                justifyContent: "center",
+                                alignItems: "center",
+                            }}
+                            cover={<img style={{ height: 160, padding: 10 }} alt="example" src={icProposalCard3} />}
+                        >
+                            <Meta style={{ textAlign: "center" }} title="LIGHTNING TALKS" description="5-10 Minutes" />
+                        </Card>
+                    </Col>
+                </Row>
+
                 <Button shape="round" type="primary" size="large" className="section-button" onClick={onProposalBtnClick}>
                     Submit Your Proposal
                 </Button>
-                <p className="section-content-text dark-section-text">
-                Should you have any questions or require further information <br/> 
-                please contact us at stateofthemapasia@gmail.com
-                </p>
             </div>
         </section>
     );
