@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/sotma2023test.github.io/static/css/main.c9626f46.css",
-    "main.js": "/sotma2023test.github.io/static/js/main.7006fac6.js",
+    "main.css": "/sotma2023test.github.io/static/css/main.12321af8.css",
+    "main.js": "/sotma2023test.github.io/static/js/main.f75c75f1.js",
     "static/js/787.e945c722.chunk.js": "/sotma2023test.github.io/static/js/787.e945c722.chunk.js",
     "static/media/2023-bg-homepage.png": "/sotma2023test.github.io/static/media/2023-bg-homepage.49def46362c593186a66.png",
     "static/media/2023-bg-topo.png": "/sotma2023test.github.io/static/media/2023-bg-topo.33d8ae39e261c9b59cd3.png",
@@ -21,12 +21,12 @@
     "static/media/bg-theme-bottom.svg": "/sotma2023test.github.io/static/media/bg-theme-bottom.9ca378f7f711349706e2a842d3c0fb98.svg",
     "static/media/bg-theme-top.svg": "/sotma2023test.github.io/static/media/bg-theme-top.16023c8db3cb01d251f9151cec0287c9.svg",
     "index.html": "/sotma2023test.github.io/index.html",
-    "main.c9626f46.css.map": "/sotma2023test.github.io/static/css/main.c9626f46.css.map",
-    "main.7006fac6.js.map": "/sotma2023test.github.io/static/js/main.7006fac6.js.map",
+    "main.12321af8.css.map": "/sotma2023test.github.io/static/css/main.12321af8.css.map",
+    "main.f75c75f1.js.map": "/sotma2023test.github.io/static/js/main.f75c75f1.js.map",
     "787.e945c722.chunk.js.map": "/sotma2023test.github.io/static/js/787.e945c722.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c9626f46.css",
-    "static/js/main.7006fac6.js"
+    "static/css/main.12321af8.css",
+    "static/js/main.f75c75f1.js"
   ]
 }
