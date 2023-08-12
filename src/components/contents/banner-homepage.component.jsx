@@ -65,7 +65,7 @@ export const HomepageBannerPanel = () => {
                         size="large"
                         onClick={onFoss4gClick}
                         style={{
-                            width: "400px",
+                            width: "300px",
                             fontWeight: 500,
                             fontSize: "large",
                             textAlign: "center",
@@ -93,7 +93,7 @@ export const HomepageBannerPanel = () => {
                         maxWidth: 600,
                     }}
                 >
-                    <CountdownTimer targetDate={programDate} />
+                    <CountdownTimer targetDate={programDate}  style={{maxWidth: 360}}/>
                 </div>
             </div>
 

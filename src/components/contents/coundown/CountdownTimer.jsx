@@ -25,9 +25,9 @@ const ExpiredNotice = () => {
 
 const ShowCounter = ({ days, hours, minutes, seconds }) => {
     return (
-        <div className="show-counter">
+        <div className="show-counter" >
             <Layout style={{backgroundColor: 'rgba(0,0,0,0)'}}>
-                <Row gutter={16} >
+                <Row gutter={16}>
                     <Col className="gutter-row" span={6}>
                         <DateTimeDisplay value={days} type={"Days"} isDanger={false} />
                     </Col>

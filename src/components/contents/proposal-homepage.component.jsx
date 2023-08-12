@@ -49,7 +49,7 @@ export const HomepageProposalPanel = () => {
                     <a href="stateofthemapasia@gmail.com">stateofthemapasia@gmail.com</a>
                 </p>
 
-                <Row gutter={16} style={{padding: 30}}>
+                <Row gutter={16} style={{padding: 30, overflow: "hidden"}}>
                     <Col span={8}>
                         <Card
                             hoverable
