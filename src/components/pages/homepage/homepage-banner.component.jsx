@@ -1,10 +1,9 @@
 import React from "react";
 import { Carousel, Button, Image } from "antd";
 import "./content.styles.css";
-import { CountdownTimer } from "./coundown/CountdownTimer";
+import { CountdownTimer } from "../../contents/countdown/CountdownTimer";
 
-import bgImg from "../../assets/2023-header-homepage.png";
-import bgCounter from "../../assets/bg-countdown.png";
+import bgImg from "../../../assets/2023-header-homepage.png";
 import moment from "moment";
 
 export const HomepageBannerPanel = () => {

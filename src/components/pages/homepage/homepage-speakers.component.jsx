@@ -2,9 +2,9 @@ import React from "react";
 import { Row, Col, Card } from "antd";
 import "./content.styles.css";
 
-import icSpeaker from "../../assets/bg-svg/section-icon-speaker.svg";
-import spacerThemeTop from "../../assets/bg-svg/bg-theme-top.svg";
-import spacerThemeBottom from "../../assets/bg-svg/bg-theme-bottom.svg";
+import icSpeaker from "../../../assets/bg-svg/section-icon-speaker.svg";
+import spacerThemeTop from "../../../assets/bg-svg/bg-theme-top.svg";
+import spacerThemeBottom from "../../../assets/bg-svg/bg-theme-bottom.svg";
 
 const { Meta } = Card;
 

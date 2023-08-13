@@ -2,10 +2,10 @@ import React from "react";
 import { Button, Col, Row, Card } from "antd";
 import "./content.styles.css";
 
-import bgImgTopo from "../../assets/2023-bg-topo.png";
-import icProposalCard1 from "../../assets/bg-svg/ic_proposal_card_1.svg";
-import icProposalCard2 from "../../assets/bg-svg/ic_proposal_card_2.svg";
-import icProposalCard3 from "../../assets/bg-svg/ic_proposal_card_3.svg";
+import bgImgTopo from "../../../assets/2023-bg-topo.png";
+import icProposalCard1 from "../../../assets/bg-svg/ic_proposal_card_1.svg";
+import icProposalCard2 from "../../../assets/bg-svg/ic_proposal_card_2.svg";
+import icProposalCard3 from "../../../assets/bg-svg/ic_proposal_card_3.svg";
 
 const { Meta } = Card;
 

@@ -127,9 +127,9 @@ box-shadow: 2px 2px 20px 0px rgba(153,151,153,1);
 }
 
 .spacer-grayscale-top {
-    background-image: url('../../assets/bg-svg/bg-grayscale-top.svg');
+    background-image: url('../../../assets/bg-svg/bg-grayscale-top.svg');
 }
 
 .spacer-grayscale-bottom {
-    background-image: url('../../assets/bg-svg/bg-grayscale-bottom.svg');
+    background-image: url('../../../assets/bg-svg/bg-grayscale-bottom.svg');
 }

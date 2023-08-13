@@ -3,12 +3,15 @@ import { Menu, Layout, Col, Row } from "antd";
 import logo from "../../assets/sotm-asia-2023-logo.png";
 import MenuItems from './menu-items'
 import './header.styles.css'
+import { useNavigate } from 'react-router-dom'
 
 export const HeaderComponent = () => {
-    const [current, setCurrent] = useState("mail");
+    const [current, setCurrent] = useState("/");
+    const navigate = useNavigate()
     const onClick = (e) => {
         console.log("click ", e);
         setCurrent(e.key);
+        navigate(e.key)
     };
     return (
         <Layout style={{width: '100%'}}>

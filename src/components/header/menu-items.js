@@ -1,53 +1,69 @@
 import React from "react";
-import { InfoCircleOutlined, QuestionCircleOutlined, AlignCenterOutlined, MinusOutlined, PlusOutlined } from "@ant-design/icons";
+import { 
+    HomeOutlined, 
+    InfoCircleOutlined, 
+    QuestionCircleOutlined, 
+    AlignCenterOutlined,
+    TeamOutlined,
+    AppstoreOutlined,
+    UnorderedListOutlined,
+    SnippetsOutlined
+} from "@ant-design/icons";
 
 const MenuItems = [
     {
+        label: "Home",
+        key: "/",
+        icon: <HomeOutlined />,
+    },
+    {
         label: "About",
-        key: "about",
+        key: "/about",
         icon: <InfoCircleOutlined />,
         children: [
             {
                 label: "SoTM Asia",
-                key: "about:1",
+                key: "/about/sotm-asia",
             },
             {
                 label: "SoTM Asia History",
-                key: "about:2",
+                key: "/about/sotm-asia-history",
             },
             {
                 label: "Code of Conduct",
-                key: "about:3",
+                key: "/about/code-of-conduct",
             },
             {
                 label: "Committee",
-                key: "about:4",
+                key: "/about/committee",
             },
         ],
     },
     {
         label: "Proposals",
-        key: "proposals",
-        icon: <AlignCenterOutlined />,
+        key: "/proposals",
+        icon: <UnorderedListOutlined />,
         children: [
             {
-                label: "Presentation",
-                key: "proposals:1",
+                label: "Call for Proposals",
+                key: "/proposals/call-for-proposals",
             },
             {
-                label: "Workshop",
-                key: "proposals:2",
-            },
-            {
-                label: "Lightning",
-                key: "proposals:3",
+                label: "Submit Proposal"
+                // (
+                //     <a href="https://conference.foss4g.in.th/2023/submit/ynAMwv/info/" target="_blank" rel="noopener noreferrer">
+                //       Submit Proposal
+                //     </a>
+                //   )
+                  ,
+                key: "/proposals/submit-proposal",
             },
         ],
     },
     {
         label: "Attending",
         key: "attending",
-        icon: <QuestionCircleOutlined />,
+        icon: <TeamOutlined />,
         children: [
             {
                 label: "Registration",
@@ -117,7 +133,7 @@ const MenuItems = [
     {
         label: "Sponsors",
         key: "sponsors",
-        icon: <QuestionCircleOutlined />,
+        icon: <AppstoreOutlined />,
         children: [
             {
                 label: "Call for Sponsors",
@@ -132,7 +148,7 @@ const MenuItems = [
     {
         label: "News",
         key: "news",
-        icon: <AlignCenterOutlined />,
+        icon: <SnippetsOutlined />,
         children: [
             {
                 label: "News",
@@ -141,6 +157,10 @@ const MenuItems = [
             {
                 label: "Announcement",
                 key: "news:2",
+            },
+            {
+                label: "FAQs",
+                key: "news:23",
             },
         ],
     },

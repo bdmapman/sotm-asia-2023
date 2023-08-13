@@ -1,9 +1,8 @@
 import React from "react";
 import { Button } from "antd";
 import "./content.styles.css";
-import spacerBlueTop from "../../assets/bg-svg/bg-blue-top.svg";
-import spacerBlueBottom from "../../assets/bg-svg/bg-blue-bottom.svg";
-import icAboutUs from "../../assets/bg-svg/section-icon-about-us.svg";
+import spacerBlueTop from "../../../assets/bg-svg/bg-blue-top.svg";
+import icAboutUs from "../../../assets/bg-svg/section-icon-about-us.svg";
 
 export const HomepageAboutPanel = () => {
     return (
