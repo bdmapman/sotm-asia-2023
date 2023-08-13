@@ -1,13 +1,12 @@
 {
   "files": {
-    "main.css": "/sotm-asia-2023/static/css/main.ca130dcd.css",
-    "main.js": "/sotm-asia-2023/static/js/main.cc2cfbe3.js",
+    "main.css": "/sotm-asia-2023/static/css/main.65efb3cb.css",
+    "main.js": "/sotm-asia-2023/static/js/main.0a0eee1d.js",
     "static/js/787.e086b938.chunk.js": "/sotm-asia-2023/static/js/787.e086b938.chunk.js",
-    "static/media/2023-bg-homepage.png": "/sotm-asia-2023/static/media/2023-bg-homepage.49def46362c593186a66.png",
+    "static/media/2023-header-homepage.png": "/sotm-asia-2023/static/media/2023-header-homepage.c665207ecf5af3622835.png",
     "static/media/2023-bg-topo.png": "/sotm-asia-2023/static/media/2023-bg-topo.33d8ae39e261c9b59cd3.png",
     "static/media/section-icon-sponsor.svg": "/sotm-asia-2023/static/media/section-icon-sponsor.dcd74466d075f47d02ff3fe99c3f4d48.svg",
     "static/media/section-icon-program-schedule.svg": "/sotm-asia-2023/static/media/section-icon-program-schedule.49605ebe5b47a09fc5f492c7f7b71f5f.svg",
-    "static/media/bg-countdown.png": "/sotm-asia-2023/static/media/bg-countdown.5dd8d48bbe4260d3f774.png",
     "static/media/ic_proposal_card_1.svg": "/sotm-asia-2023/static/media/ic_proposal_card_1.d081c34207982ae49e7a00e4f591a6ea.svg",
     "static/media/section-icon-speaker.svg": "/sotm-asia-2023/static/media/section-icon-speaker.be4fef985cc45a4f171515701ebcc00c.svg",
     "static/media/ic_proposal_card_3.svg": "/sotm-asia-2023/static/media/ic_proposal_card_3.138d0492e9ba04e524ef5eb65072d3a6.svg",
@@ -21,12 +20,12 @@
     "static/media/bg-theme-bottom.svg": "/sotm-asia-2023/static/media/bg-theme-bottom.9ca378f7f711349706e2a842d3c0fb98.svg",
     "static/media/bg-theme-top.svg": "/sotm-asia-2023/static/media/bg-theme-top.16023c8db3cb01d251f9151cec0287c9.svg",
     "index.html": "/sotm-asia-2023/index.html",
-    "main.ca130dcd.css.map": "/sotm-asia-2023/static/css/main.ca130dcd.css.map",
-    "main.cc2cfbe3.js.map": "/sotm-asia-2023/static/js/main.cc2cfbe3.js.map",
+    "main.65efb3cb.css.map": "/sotm-asia-2023/static/css/main.65efb3cb.css.map",
+    "main.0a0eee1d.js.map": "/sotm-asia-2023/static/js/main.0a0eee1d.js.map",
     "787.e086b938.chunk.js.map": "/sotm-asia-2023/static/js/787.e086b938.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ca130dcd.css",
-    "static/js/main.cc2cfbe3.js"
+    "static/css/main.65efb3cb.css",
+    "static/js/main.0a0eee1d.js"
   ]
 }

@@ -10,10 +10,12 @@ export const ContentComponent = () => {
         <div>
             <Routes>
                 <Route path="/" element={<HomepageComponent />} ></Route>
+                <Route path="sotm-asia-2023" element={<HomepageComponent />} ></Route>
                 <Route path="/about" element={<AboutComponent />} ></Route>
                 <Route path="/about/sotm-asia" element={<AboutSotmAsiaComponent />} ></Route>
                 <Route path="/about/sotm-asia-history" element={<AboutSotmAsiaComponent />} ></Route>
                 <Route path="/about/code-of-conduct" element={<AboutSotmAsiaComponent />} ></Route>
+                <Route path="/about/committee" element={<AboutSotmAsiaComponent />} ></Route>
                 <Route path="/about/committee" element={<AboutSotmAsiaComponent />} ></Route>
             </Routes>
         </div>

@@ -13,7 +13,7 @@ import {
 const MenuItems = [
     {
         label: "Home",
-        key: "/",
+        key: "/sotm-asia-2023",
         icon: <HomeOutlined />,
     },
     {
