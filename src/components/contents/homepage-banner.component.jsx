@@ -3,7 +3,7 @@ import { Carousel, Button, Image } from "antd";
 import "./content.styles.css";
 import { CountdownTimer } from "./coundown/CountdownTimer";
 
-import bgImg from "../../assets/2023-bg-homepage.png";
+import bgImg from "../../assets/2023-header-homepage.png";
 import bgCounter from "../../assets/bg-countdown.png";
 import moment from "moment";
 
@@ -52,7 +52,7 @@ export const HomepageBannerPanel = () => {
                         padding: 20,
                     }}
                 >
-                    <p className="section-sub-heading  dark-section-text">
+                    <p className="section-sub-heading dark-section-text">
                         November 16-18, 2023 <br />
                         Bangkok, Thailand
                     </p>
@@ -89,7 +89,7 @@ export const HomepageBannerPanel = () => {
                         textAlign: "center",
                         paddingTop: 0,
                         marginTop: 20,
-                        minWidth: 400,
+                        minWidth: 360,
                         maxWidth: 600,
                     }}
                 >
@@ -97,7 +97,7 @@ export const HomepageBannerPanel = () => {
                 </div>
             </div>
 
-            <div className="landing-bottom-gradient"></div>
+            {/* <div className="landing-bottom-gradient"></div> */}
         </section>
     );
 };

@@ -42,3 +42,18 @@
     transform: rotate(360deg);
   }
 }
+
+.header-custom{
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 100px;
+  padding-inline: 20px;
+  background-color: white;
+}
+
+.footer-custom{
+  background-color: black;
+  text-align: center;
+  color: white;
+}
