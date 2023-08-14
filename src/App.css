@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@400;500;600;700;800;900&family=Noto+Serif:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 
 .barlow-semi-condensed {
   font-family: 'Barlow Semi Condenced', sans-serif;
@@ -38,32 +39,40 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
 }
 
-.header-custom{
+.header-custom {
   display: flex;
+  position: sticky;
+  top: 0;
   align-items: center;
   width: 100%;
-  height: 100px;
+  height: 112px;
   padding-inline: 20px;
   background-color: white;
+  -webkit-box-shadow: 2px 2px 13px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 2px 2px 13px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 2px 2px 13px 0px rgba(0, 0, 0, 0.75);
+  z-index: 10;
 }
 
-.footer-custom{
+.footer-custom {
   /* flex: none; */
-  flex-basis: 100px;
-  position: sticky;
-  bottom: 0;
+  /* flex-basis: 100px; */
+  /* position: sticky; */
+  /* bottom: 0; */
+  font-family: 'Barlow Semi Condensed', sans-serif;
   width: 100%;
-  background-color: black;
+  background-color: #1e1e24;
   text-align: center;
   color: white;
 }
 
-.content-custom{
+.content-custom {
   flex-grow: 1;
   overflow-y: auto;
 }

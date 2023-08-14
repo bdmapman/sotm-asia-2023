@@ -67,35 +67,35 @@ const MenuItems = [
         children: [
             {
                 label: "Registration",
-                key: "attending:1",
+                key: "/attending/registration",
             },
             {
                 label: "Travel Grant",
-                key: "attending:2",
+                key: "/attending/travel-grant",
             },
             {
                 label: "Studentship Grant",
-                key: "attending:3",
+                key: "/attending/studentship-grant",
             },
             {
                 label: "Accomodation",
-                key: "attending:4",
+                key: "/attending/accomodation",
             },
             {
                 label: "Attending Guidelines",
-                key: "attending:5",
+                key: "/attending/attending-guidelines",
             },
             {
                 label: "Visa Info",
-                key: "attending:6",
+                key: "/attending/visa-info",
             },
             {
                 label: "Getting to Bangkok",
-                key: "attending:7",
+                key: "/attending/getting-to-bangkok",
             },
             {
                 label: "Venue",
-                key: "attending:8",
+                key: "/attending/venue",
             },
         ],
     },
@@ -106,27 +106,15 @@ const MenuItems = [
         children: [
             {
                 label: "Keynote",
-                key: "schedule:1",
+                key: "/schedule/keynote",
             },
             {
-                label: "Presentations Schedule",
-                key: "schedule:2",
-            },
-            {
-                label: "Workshop Schedule",
-                key: "schedule:3",
-            },
-            {
-                label: "Laghtning Talks Schedule",
-                key: "schedule:4",
+                label: "Program Schedule",
+                key: "/schedule/program-schedule",
             },
             {
                 label: "Social Events",
-                key: "schedule:5",
-            },
-            {
-                label: "Other Events",
-                key: "schedule:6",
+                key: "/schedule/social-events",
             },
         ],
     },
@@ -137,11 +125,11 @@ const MenuItems = [
         children: [
             {
                 label: "Call for Sponsors",
-                key: "sponsors:1",
+                key: "/sponsors/call-for-sponsors",
             },
             {
                 label: "Sponsors and Partners",
-                key: "sponsors:2",
+                key: "/sponsors/sponsors-and-partners",
             },
         ],
     },
@@ -151,16 +139,16 @@ const MenuItems = [
         icon: <SnippetsOutlined />,
         children: [
             {
-                label: "News",
-                key: "news:1",
+                label: "Conference News",
+                key: "/news/conference-news",
             },
             {
                 label: "Announcement",
-                key: "news:2",
+                key: "/news/announcement",
             },
             {
                 label: "FAQs",
-                key: "news:23",
+                key: "/news/faqs",
             },
         ],
     },
