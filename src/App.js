@@ -3,7 +3,7 @@ import { Layout, theme } from "antd";
 import './App.css'
 import { HeaderComponent } from "./components/header/header.component";
 import { FooterComponent } from "./components/footer/footer.component";
-import { ContentComponent } from "./components/contents/content.component";
+import { ContentComponent } from "./components/contents/Router.component";
 
 const { Header, Content, Footer } = Layout;
 

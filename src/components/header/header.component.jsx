@@ -58,7 +58,7 @@ export const HeaderComponent = () => {
                     }}
                 >
                     <img src={logo} alt="logo" height={100} style={{ marginLeft: 1 }} />
-                    <p className="text-logo ">State of the Map<br />Asia - 2023</p>
+                    <p className="text-logo"><span className="alternate-logo-color">State of the Map</span><br />Asia - 2023</p>
                 </Col>
             </Row>
         </Layout>
