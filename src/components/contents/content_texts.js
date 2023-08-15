@@ -1,4 +1,62 @@
 export const ContentTexts = {
+    homepage: {
+        about: {
+            header: "About State of the Map Asia 2023",
+            subHeader: "A detail Concept of State of the Map Asia",
+            link: "",
+            buttonText: "Know more about SOTM",
+            contentText:
+                "State of the Map Asia 2023 conference, along with FOSS4G Thailand, will be held at the Srinakharinwirot University - Asoke Area in the vibrant city of Bangkok, Thailand on November 16-18, 2023. This premier event aims to bring together geospatial experts, GIS enthusiasts, developers, humanitarian workers, and policymakers from across Asia to share knowledge, insights, and experiences related to OpenStreetMap (OSM) and the broader open mapping community.",
+        },
+        proposal: {
+            header: "Call for Proposals",
+            subHeader: "",
+            link: "stateofthemapasia@gmail.com",
+            buttonText: "Submit Your Proposal",
+            contentText:
+                "We are now accepting proposals for the FOSS4G Thailand and State of the Map Asia 2023.If you have something to share in geospatial technology, cartography, community building, or any other related field, we encourage you to submit your proposals and be a part of this enriching event. Should you have any questions or require further information please contact us at ",
+        },
+        sponsor: {
+            header: "Sponsors & Partners",
+            subHeader: "A detail Concept of State of the Map Asia",
+            link: "",
+            buttonText: "Sponsorship Prospectus",
+            contentText:
+                "State of the Map Asia and FOSS4G Thailand are looking for sponsors! If you would like to help us make these co-events a success, please check out the sponsorship prospectus below",
+        },
+        speaker: {
+            header: "Speaker",
+            subHeader: "A detail Concept of State of the Map Asia",
+            link: "",
+            buttonText: "More Speakers",
+            contentText:
+                "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s Lorem Ipsum",
+        },
+        schedule: {
+            header: "Program Schedule",
+            subHeader: "A detail Concept of State of the Map Asia",
+            link: "",
+            buttonText: "See detail Program Schedule",
+            contentText:
+                "We are now collecting for the proposal. After getting allthhe proposals we will sort it out and select for the final conferenece. After selecting all the presentattions, lightning talks and workshops we will publish the final Program Schedule. Stay tuned with us.",
+        },
+        news: {
+            header: "News & Announcement",
+            subHeader: "A detail Concept of State of the Map Asia",
+            link: "https://2023.foss4g.in.th/",
+            buttonText: "",
+            contentText:
+                "For more news please visit FoSS4G Thailand Page",
+        },
+        venue: {
+            header: "Venue",
+            subHeader: "A detail Concept of State of the Map Asia",
+            link: "",
+            buttonText: "Go to Detail Map",
+            contentText:
+                "Srinakharinwirot University, 114 Soi Sukhumvit 23, Khlong Toei Nuea, Watthana, Bangkok 10110",
+        },
+    },
     about: {
         sotmAsia: {
             header: "About SOTM Asia",

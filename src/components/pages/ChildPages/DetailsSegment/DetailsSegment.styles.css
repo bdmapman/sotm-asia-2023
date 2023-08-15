@@ -1,10 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@400;500;600;700;800;900&family=Dosis:wght@300&family=Philosopher:wght@400;700&display=swap');
 
 .section-heading {
-    font-family: 'Barlow Semi Condensed', sans-serif;
-    font-size: 24px;
-    font-weight: 700;
+    font-family: 'Philosopher', sans-serif;
+    font-size: 32px;
+    font-weight: bolder;
     text-align: center;
     color: #3472a1;
+    text-shadow: 1px 1px 1px #a1abc4;
 }
 
 .section-content-text {

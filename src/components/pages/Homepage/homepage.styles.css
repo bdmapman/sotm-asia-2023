@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@400;500;600;700;800;900&family=Dosis:wght@300&family=Philosopher:wght@400;700&display=swap');
+
+.homepage-segment {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-color: white;
+}
+
+.homepage-segment-dark{
+    background-color: black;
+}
+
+.segment-header-image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.segment-header-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    background-color: rgba(255,255, 255, 0.5);
+    /* -webkit-box-shadow: 0px 0px 20px -10px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0px 20px -10px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 20px -10px rgba(0, 0, 0, 0.75); */
+}
+
+.segment-header-image-dark-theme {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    background-color: rgba(255,255, 255, 0.25);
+    -webkit-box-shadow: 0px 0px 20px -10px rgba(255,255, 255, 0.5);
+    -moz-box-shadow: 0px 0px 20px -10px rgba(255,255, 255, 0.5);
+    box-shadow: 0px 0px 20px -10px rgba(255,255, 255, 0.5);
+}
+
+.segment-heading {
+    font-family: 'Philosopher', sans-serif;
+    font-size: 32px;
+    font-weight: bolder;
+    text-align: center;
+    color: #3472a1;
+    text-shadow: 1px 1px 1px #a1abc4;
+}
+
+.segment-heading-dark-theme{
+    color: white !important;
+    text-shadow: 0px 0px 0px #a1abc4;
+}
+
+.segment-content-text {
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    text-align: center;
+    color: black;
+    max-width: max-content;
+    padding-bottom: 20px;
+    max-width: 1080px;
+    margin: 0 auto !important;
+    float: none !important;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 20px;
+
+}
+
+.segment-content-text-dark-theme{
+    color: white !important;
+    font-weight: 400;
+}
+
+.segment-button {
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-weight: 500;
+    font-size: larger !important;
+    text-align: center;
+    justify-content: center;
+}
+
+.link-text{
+    font-family: 'Philosopher', sans-serif;
+    font-weight: 500;
+    font-size: 18px !important;
+    text-align: center;
+    justify-content: center;
+    padding-bottom: 20px;
+}
