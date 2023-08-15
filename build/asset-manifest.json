@@ -1,19 +1,23 @@
 {
   "files": {
-    "main.css": "/sotm-asia-2023/static/css/main.c04da951.css",
-    "main.js": "/sotm-asia-2023/static/js/main.1aab2210.js",
+    "main.css": "/sotm-asia-2023/static/css/main.ec4f8085.css",
+    "main.js": "/sotm-asia-2023/static/js/main.69ebcfe0.js",
     "static/js/787.e086b938.chunk.js": "/sotm-asia-2023/static/js/787.e086b938.chunk.js",
     "static/media/2023-header-homepage.png": "/sotm-asia-2023/static/media/2023-header-homepage.c665207ecf5af3622835.png",
     "static/media/2023-bg-topo.png": "/sotm-asia-2023/static/media/2023-bg-topo.33d8ae39e261c9b59cd3.png",
     "static/media/2023-header-pages.jpg": "/sotm-asia-2023/static/media/2023-header-pages.625c14b3a3a2692d39fa.jpg",
     "static/media/section-icon-sponsor.svg": "/sotm-asia-2023/static/media/section-icon-sponsor.dcd74466d075f47d02ff3fe99c3f4d48.svg",
     "static/media/section-icon-program-schedule.svg": "/sotm-asia-2023/static/media/section-icon-program-schedule.49605ebe5b47a09fc5f492c7f7b71f5f.svg",
+    "static/media/section-icon-proposal.svg": "/sotm-asia-2023/static/media/section-icon-proposal.ff803cc4de6f0c423d873b0591e80249.svg",
     "static/media/ic_proposal_card_1.svg": "/sotm-asia-2023/static/media/ic_proposal_card_1.d081c34207982ae49e7a00e4f591a6ea.svg",
     "static/media/section-icon-speaker.svg": "/sotm-asia-2023/static/media/section-icon-speaker.be4fef985cc45a4f171515701ebcc00c.svg",
     "static/media/ic_proposal_card_3.svg": "/sotm-asia-2023/static/media/ic_proposal_card_3.138d0492e9ba04e524ef5eb65072d3a6.svg",
     "static/media/section-icon-about-us.svg": "/sotm-asia-2023/static/media/section-icon-about-us.1d2846baab559f350e672b52887ca40b.svg",
     "static/media/ic_proposal_card_2.svg": "/sotm-asia-2023/static/media/ic_proposal_card_2.5a1d1590f5ab6dffc853fc62c3b3c1cf.svg",
+    "static/media/section-icon-news.svg": "/sotm-asia-2023/static/media/section-icon-news.41cdd3542c3a9aadcc7d20a7079f32fc.svg",
     "static/media/sotm-asia-2023-logo.png": "/sotm-asia-2023/static/media/sotm-asia-2023-logo.b6023111bc5efd42ed23.png",
+    "static/media/segment-divider-bottom.svg": "/sotm-asia-2023/static/media/segment-divider-bottom.63ad62ec23d48a75228a9c8ff8e9304c.svg",
+    "static/media/segment-divider-top.svg": "/sotm-asia-2023/static/media/segment-divider-top.88e0e98604114bcb9208bafc41029159.svg",
     "static/media/bg-footer-wave.svg": "/sotm-asia-2023/static/media/bg-footer-wave.20ae12618062bc7249078245206da7b8.svg",
     "static/media/bg-grayscale-bottom.svg": "/sotm-asia-2023/static/media/bg-grayscale-bottom.d71c08a13b325067b012.svg",
     "static/media/bg-grayscale-top.svg": "/sotm-asia-2023/static/media/bg-grayscale-top.12cc2d5fc3fa0bf117ad.svg",
@@ -23,12 +27,12 @@
     "static/media/bg-theme-bottom.svg": "/sotm-asia-2023/static/media/bg-theme-bottom.9ca378f7f711349706e2a842d3c0fb98.svg",
     "static/media/bg-theme-top.svg": "/sotm-asia-2023/static/media/bg-theme-top.16023c8db3cb01d251f9151cec0287c9.svg",
     "index.html": "/sotm-asia-2023/index.html",
-    "main.c04da951.css.map": "/sotm-asia-2023/static/css/main.c04da951.css.map",
-    "main.1aab2210.js.map": "/sotm-asia-2023/static/js/main.1aab2210.js.map",
+    "main.ec4f8085.css.map": "/sotm-asia-2023/static/css/main.ec4f8085.css.map",
+    "main.69ebcfe0.js.map": "/sotm-asia-2023/static/js/main.69ebcfe0.js.map",
     "787.e086b938.chunk.js.map": "/sotm-asia-2023/static/js/787.e086b938.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c04da951.css",
-    "static/js/main.1aab2210.js"
+    "static/css/main.ec4f8085.css",
+    "static/js/main.69ebcfe0.js"
   ]
 }
