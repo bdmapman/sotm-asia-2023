@@ -12,7 +12,7 @@
 }
 
 .homepage-segment-dark{
-    background-color: black;
+    background-color: #21242b;
 }
 
 .segment-header-image-container {
@@ -101,4 +101,18 @@
     text-align: center;
     justify-content: center;
     padding-bottom: 20px;
+}
+
+.segment-divider{
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100px;
+    width: 100%;
+    min-height: 50px;
+    bottom: -150;
 }

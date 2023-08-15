@@ -2,6 +2,7 @@ import React from "react";
 import "./homepage.styles.css";
 import { Image, Button } from "antd";
 import bgContourLight from "../../../assets/2023-bg-topo.png";
+import SegmentDivider from "../../../assets/bg-svg/segment-divider-top.svg";
 
 export const HomepageSegmentDark = (props) => {
     const contents = props.contents;
@@ -26,16 +27,18 @@ export const HomepageSegmentDark = (props) => {
             </div>
             {contents.link ? (
                 <div className="link-text">
-                    <a  href={contents.link}>{contents.link}</a>
+                    <a href={contents.link}>{contents.link}</a>
                 </div>
             ) : (
                 <div></div>
             )}
             {props.elements ? <div>{props.elements}</div> : <div></div>}
             {contents.buttonText ? (
-                <Button shape="round" type="primary" size="large" className="segment-button">
-                    {contents.buttonText}
-                </Button>
+                <div style={{padding: 40}}>
+                    <Button shape="round" type="primary" size="large" className="segment-button">
+                        {contents.buttonText}
+                    </Button>
+                </div>
             ) : (
                 <div></div>
             )}
