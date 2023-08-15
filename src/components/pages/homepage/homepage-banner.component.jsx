@@ -2,6 +2,7 @@ import React from "react";
 import { Carousel, Button, Image } from "antd";
 import "./content.styles.css";
 import { CountdownTimer } from "../../contents/countdown/CountdownTimer";
+import PageHeaderWave from "../../../assets/bg-svg/page-header-wave.svg";
 
 import bgImg from "../../../assets/2023-header-homepage.png";
 import moment from "moment";
@@ -94,9 +95,17 @@ export const HomepageBannerPanel = () => {
                 >
                     <CountdownTimer targetDate={programDate}  style={{maxWidth: 360}}/>
                 </div>
+
             </div>
 
-            {/* <div className="landing-bottom-gradient"></div> */}
+            <div 
+                className="header-wave" 
+                style={{ 
+                    backgroundImage: `url(${PageHeaderWave})`,
+                     
+                }}>
+            </div>
+
         </section>
     );
 };

@@ -35,7 +35,7 @@ const ShowCounter = ({ days, hours, minutes, seconds }) => {
                         <DateTimeDisplay value={hours} type={"Hours"} isDanger={false} />
                     </Col>
                     <Col className="gutter-row" span={6}>
-                        <DateTimeDisplay value={minutes} type={"Mins"} isDanger={false} />
+                        <DateTimeDisplay value={minutes} type={"Minutes"} isDanger={false} />
                     </Col>
                     <Col className="gutter-row" span={6}>
                         <DateTimeDisplay value={seconds} type={"Seconds"} isDanger={false} />

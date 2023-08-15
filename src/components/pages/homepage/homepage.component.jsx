@@ -7,6 +7,7 @@ import { HomepageSponsorsPanel } from "./homepage-sponsors.component";
 import { HomepageVenuePanel } from "./homepage-venue.component";
 import { HomepageSpeakersPanel } from "./homepage-speakers.component";
 import { HomepageSchedulePanel } from "./homepage-schedule.component";
+import { HomepageLanding } from "./homepage-landing.component"
 import { HomepageSegmentLight } from "./homepage-segment-light";
 import { HomepageSegmentDark } from "./homepage-segment-dark";
 import { ProposalTypes } from "../PageElements/ProposalTypes.component";
@@ -27,7 +28,7 @@ import { VenueMap } from "../PageElements/VenueMap.component";
 export const HomepageComponent = () => {
     return (
         <div>
-            <HomepageBannerPanel />
+            <HomepageLanding contents={ContentTexts.homepage.landing} />
 
             <HomepageSegmentLight contents={ContentTexts.homepage.about} headerImage={icAboutUs} elements={<EventsCounter />} />
             <HomepageSegmentDark contents={ContentTexts.homepage.proposal} headerImage={icPrposal} elements={<ProposalTypes />} />

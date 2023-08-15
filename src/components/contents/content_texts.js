@@ -1,5 +1,12 @@
 export const ContentTexts = {
     homepage: {
+        landing: {
+            header: "State of the Map Asia 2023",
+            date: "November 16-18, 2023",
+            venue: "Bangkok, Thailand",
+            coOrganiser: "Co-event with FOSS4G Thailand",
+            link: "https://2023.foss4g.in.th/",
+        },
         about: {
             header: "About State of the Map Asia 2023",
             subHeader: "A detail Concept of State of the Map Asia",

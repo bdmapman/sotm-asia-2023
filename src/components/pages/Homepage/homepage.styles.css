@@ -1,5 +1,146 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@400;500;600;700;800;900&family=Dosis:wght@300&family=Philosopher:wght@400;700&display=swap');
 
+.landing-image {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+    width: 100%;
+    min-height: 800px;
+}
+
+.landing-header-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    height: 600px;
+    width: 100%;
+}
+
+.landing-overlay-gradient {
+    display: flex;
+    opacity: 0.9;
+    height: 800px;
+    rotate: 180;
+    width: 100%;
+    background: rgb(156, 46, 67);
+    background: linear-gradient(180deg, rgba(156, 46, 67, 1) 0%, rgba(73, 99, 168, 1) 100%);
+}
+
+.landing-header {
+    position: relative;
+    font-family: 'Philosopher', sans-serif;
+    font-size: 40px;
+    margin-top: 50px;
+    padding: 20px;
+    font-weight: bolder;
+    letter-spacing: 1px;
+    text-align: center;
+    color: white;
+    text-shadow: 3px 3px 3px #1e1e34;
+}
+
+.landing-sub-header {
+    font-family: 'Dosis', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    text-align: center;
+    color: white;
+    letter-spacing: 4px;
+    text-shadow: 1px 1px 1px #1e1e34;
+}
+
+.landing-link{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 160px;
+    width: 360px;
+    min-width: 360px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 80px;
+    cursor: pointer;
+    opacity: 1;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5), 0 2px 4px rgba(0, 0, 0, 0.6);
+    /* transition: all 0.3s cubic-bezier(.25, .8, .25, 1); */
+    &:hover {
+        color: white;
+        background-color: #123456;
+        box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+    }
+}
+
+.landing-link-text {
+    font-family: 'Dosis', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    font-size: 20px !important;
+    color:#3472a1;
+    letter-spacing: 1px; 
+}
+
+.landing-header-wave{
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 50px;
+    width: 100%;
+    min-height: 50px;
+    bottom: 0;
+    margin-top: -50px;
+}
+
+.countdown-timer-container{
+    width: 60vw;
+    height: 200px;
+    border-radius: 10px;
+    min-width: 360px;
+    max-width: 720px;
+    background-color: rgba(0,0,0,0.8);
+    background-position: center;
+    /* background-size: cover; */
+    color: white;
+    text-align: center;
+    padding-top: 0;
+    margin-top: 20px;
+}
+
+.social-icon-containrer{
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    width: 360;
+}
+
+.social-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+    margin: 0px 10px 10px 10px;
+    cursor: pointer;
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5), 0 2px 4px rgba(0, 0, 0, 0.6);
+    /* transition: all 0.3s cubic-bezier(.25, .8, .25, 1); */
+    &:hover {
+        background-color: white;
+        box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+    }
+}
+
 .homepage-segment {
     display: flex;
     align-items: center;
