@@ -114,3 +114,22 @@
       font-size: 8px;
     }
   }
+
+  .page-404-img{
+    height: 400px;
+    margin: 20px;
+    padding: 20px;
+  }
+
+  .publish-soon{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 60vw;
+    height: 400;
+    margin: 20px;
+    padding: 20px;
+  }

@@ -59,25 +59,34 @@ li:hover {
 
 li{
     font-family: 'Dosis', sans-serif;
-    font-size: large;
+    font-weight: 300;
+    font-size: 14px;
 }
 
 ul.horizontal-list {
     list-style: none;
     /* color: white; */
     display: inline-block;
-    padding: 1rem 2rem;
+    padding: 0rem 0rem;
     margin-top: 1rem;
 }
 
 ul.horizontal-list li {
     display: inline-block;
     padding: 0 0.5rem;
-    min-width: 7rem;
+    /* min-width: 6rem; */
     text-align: center;
     cursor: pointer;
 }
 
 ul.horizontal-list li:not(:last-child) {
-    border-right: 2px solid #4b6bc4;
+    border-right: 2px solid #1677ff;
 }
+
+/* :where(.css-dev-only-do-not-override-byeoj0) a {
+    color: #ffc431 !important;
+}
+
+:where(.css-dev-only-do-not-override-byeoj0) a:hover {
+    color: #ffffff !important;
+} */

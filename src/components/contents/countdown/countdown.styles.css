@@ -75,7 +75,7 @@
 .countdown-lebel{
   font-family: 'Dosis', sans-serif;
   color: white;
-  font-size: 20px;
+  font-size: 16px;
   font-weight: 500;
   padding: 10px;
   letter-spacing: 1px;
@@ -84,7 +84,7 @@
 .countdown-text{
   font-family: 'Philosopher', sans-serif;
   color: white;
-  font-size: 40px;
+  font-size: 32px;
   font-weight: bolder;
   margin: 0;
   padding: 10px;

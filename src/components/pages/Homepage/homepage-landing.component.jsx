@@ -1,5 +1,5 @@
 import React from "react";
-import { Divider, Image } from "antd";
+import { Button, Image } from "antd";
 import "./homepage.styles.css";
 import LandingImage from "../../../assets/2023-header-homepage.png";
 import { CountdownTimer } from "../../contents/countdown/CountdownTimer";
@@ -25,31 +25,40 @@ export const HomepageLanding = (props) => {
                     <br />
                     {contents.venue}
                 </p>
-                <p className="landing-sub-header" style={{ fontSize: 20 }}>
+                <p className="landing-sub-header" style={{ fontSize: 16 }}>
                     {contents.coOrganiser}
                 </p>
-                <div className="landing-link">
-                    <text className="landing-link-text">{contents.link}</text>
+                <div style={{ paddingBottom: "20px" }}>
+                    <Button
+                        onClick={onFoss4gClick}
+                        shape="round"
+                        type="primary"
+                        size="large"
+                        className="segment-button"
+                        style={{ backgroundColor: "rgba(73, 99, 168, 1)" }}
+                    >
+                        {contents.link}
+                    </Button>
                 </div>
                 <div className="countdown-timer-container">
                     <CountdownTimer targetDate={programDate} style={{ maxWidth: 360 }} />
                 </div>
 
-                <p className="landing-sub-header" style={{ fontSize: 20 }}>
+                <p className="landing-sub-header" style={{ fontSize: 16 }}>
                     Find more on
                 </p>
                 <div className="social-icon-containrer">
-                    <div className="social-icon" style={{ backgroundColor: "#4267B2" }}>
-                        <FacebookFilled style={{ fontSize: "32px", color: "white" }} />
+                    <div className="footer-social-icon" style={{ backgroundColor: "#4267B2" }}>
+                        <i className="fa-brands fa-facebook-f"></i>
                     </div>
-                    <div className="social-icon" style={{ backgroundColor: "#0A66C2" }}>
-                        <LinkedinFilled style={{ fontSize: "32px", color: "white" }} />
+                    <div className="footer-social-icon" style={{ backgroundColor: "#0A66C2" }}>
+                        <i className="fa-brands fa-linkedin-in"></i>
                     </div>
-                    <div className="social-icon" style={{ backgroundColor: "#00acee" }}>
-                        <TwitterCircleFilled style={{ fontSize: "32px", color: "white" }} />
+                    <div className="footer-social-icon" style={{ backgroundColor: "#00acee" }}>
+                        <i className="fa-brands fa-twitter"></i>
                     </div>
-                    <div className="social-icon" style={{ backgroundColor: "#171515" }}>
-                        <GithubFilled style={{ fontSize: "32px", color: "white" }} />
+                    <div className="footer-social-icon" style={{ backgroundColor: "#171515" }}>
+                        <i className="fa-brands fa-github"></i>
                     </div>
                 </div>
             </div>

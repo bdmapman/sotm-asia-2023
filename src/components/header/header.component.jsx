@@ -11,7 +11,6 @@ export const HeaderComponent = () => {
     const [current, setCurrent] = useState("/");
     const navigate = useNavigate();
     const onClick = (e) => {
-        console.log("click ", e);
         setCurrent(e.key);
         navigate(e.key);
     };
@@ -62,7 +61,7 @@ export const HeaderComponent = () => {
                         alignItems: "center",
                     }}
                 >
-                    <img src={logo} alt="logo" height={100} style={{ marginLeft: 1 }} />
+                    <img src={logo} alt="logo" height={80} style={{ marginLeft: 1 }} />
                     {width > breakpoint ? (
                         <p className="text-logo">
                             <span className="alternate-logo-color">State of the Map</span>

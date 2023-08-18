@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@400;500;600;700;800;900&family=Noto+Serif:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@400;500;600;700;800;900&family=Dosis:wght@300&family=Philosopher:wght@400;700&display=swap');
 
 
 .barlow-semi-condensed {
@@ -75,4 +75,17 @@
 .content-custom {
   flex-grow: 1;
   overflow-y: auto;
+}
+
+.ant-btn-primary {
+  font-family: 'Dosis', sans-serif !important;
+  letter-spacing: 1px;
+  background-color: #3472a1;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
+  &:hover {
+    /* background-color: #365577 !important; */
+    background-color: #3472a1 !important;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  }
 }

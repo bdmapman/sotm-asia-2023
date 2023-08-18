@@ -1,10 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@400;500;600;700;800;900&family=Dosis:wght@300&family=Philosopher:wght@400;700&display=swap');
 
 .section-heading {
-    font-family: 'Philosopher', sans-serif;
-    font-size: 32px;
-    font-weight: bolder;
+    font-family: 'Philosopher', sans-serif !important;
+    font-size: 28px !important;
+    font-weight: bold;
     text-align: center;
+    width: 80vw !important;
     color: #3472a1;
     text-shadow: 1px 1px 1px #a1abc4;
 }
@@ -12,17 +13,17 @@
 .section-content-text {
     font-family: 'Barlow Semi Condensed', sans-serif;
     font-weight: 500;
-    font-size: 18px;
+    font-size: 16px !important;
     text-align: center;
     color: black;
-    max-width: max-content;
     padding-bottom: 20px;
     max-width: 1080px;
     margin: 0 auto !important;
     float: none !important;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
     padding-bottom: 50px;
+    width: 80vw;
 
 }
 
