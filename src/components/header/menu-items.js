@@ -100,21 +100,25 @@ const MenuItems = [
         ],
     },
     {
-        label: "Schedule",
-        key: "schedule",
+        label: "Conference",
+        key: "conference",
         icon: <AlignCenterOutlined />,
         children: [
             {
                 label: "Keynote",
-                key: "/schedule/keynote",
+                key: "/conference/keynote",
+            },
+            {
+                label: "Speakers",
+                key: "/conference/speakers",
             },
             {
                 label: "Program Schedule",
-                key: "/schedule/program-schedule",
+                key: "/conference/program-schedule",
             },
             {
                 label: "Social Events",
-                key: "/schedule/social-events",
+                key: "/conference/social-events",
             },
         ],
     },

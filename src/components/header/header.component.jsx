@@ -3,9 +3,9 @@ import { Menu, Layout, Col, Row } from "antd";
 import logo from "../../assets/sotm-asia-2023-logo.png";
 import MenuItems from "./menu-items";
 import "./header.styles.css";
-import { useNavigate } from "react-router-dom";
+import { useNavigate, Link } from "react-router-dom";
 import useViewport from "../../hooks/useViewport";
-import { AlignRightOutlined } from '@ant-design/icons'
+import { AlignRightOutlined } from "@ant-design/icons";
 
 export const HeaderComponent = () => {
     const [current, setCurrent] = useState("/");
@@ -59,15 +59,20 @@ export const HeaderComponent = () => {
                         backgroundColor: "rgba(0,0,0,0)",
                         display: "flex",
                         alignItems: "center",
+                        justifyItems: "center",
                     }}
                 >
-                    <img src={logo} alt="logo" height={80} style={{ marginLeft: 1 }} />
+                    <Link style={{display: "flex", alignItems: "center"}} to="/">
+                        <img src={logo} alt="logo" height={80} style={{ marginLeft: 1 }} />
+                    </Link>
                     {width > breakpoint ? (
-                        <p className="text-logo">
-                            <span className="alternate-logo-color">State of the Map</span>
-                            <br />
-                            Asia - 2023
-                        </p>
+                        <Link to="/">
+                            <p className="text-logo">
+                                <span className="alternate-logo-color">State of the Map</span>
+                                <br />
+                                Asia - 2023
+                            </p>
+                        </Link>
                     ) : (
                         <div></div>
                     )}

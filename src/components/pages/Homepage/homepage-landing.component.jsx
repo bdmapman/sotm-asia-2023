@@ -15,6 +15,10 @@ export const HomepageLanding = (props) => {
     const onFoss4gClick = () => {
         window.open("https://2023.foss4g.in.th/", "_blank", "noopener,noreferrer");
     };
+
+    const onSocialBtnClick = (path) => {
+        window.open(path, "_blank", "noopener,noreferrer");
+    };
     return (
         <div className="landing-image" style={{ backgroundImage: `url(${LandingImage})` }}>
             <div className="landing-overlay-gradient" />
@@ -48,16 +52,31 @@ export const HomepageLanding = (props) => {
                     Find more on
                 </p>
                 <div className="social-icon-containrer">
-                    <div className="footer-social-icon" style={{ backgroundColor: "#4267B2" }}>
+                    <div
+                        className="footer-social-icon"
+                        style={{ backgroundColor: "#4267B2" }}
+                        onClick={() => onSocialBtnClick("https://www.facebook.com/SotmAsia/")}
+                    >
                         <i className="fa-brands fa-facebook-f"></i>
                     </div>
-                    <div className="footer-social-icon" style={{ backgroundColor: "#0A66C2" }}>
-                        <i className="fa-brands fa-linkedin-in"></i>
+                    <div
+                        className="footer-social-icon instagram"
+                        onClick={() => onSocialBtnClick("https://www.instagram.com/sotm_asia/?hl=en")}
+                    >
+                        <i className="fa-brands fa-instagram"></i>
                     </div>
-                    <div className="footer-social-icon" style={{ backgroundColor: "#00acee" }}>
+                    <div
+                        className="footer-social-icon"
+                        style={{ backgroundColor: "#00acee" }}
+                        onClick={() => onSocialBtnClick("https://twitter.com/sotmasia?lang=en")}
+                    >
                         <i className="fa-brands fa-twitter"></i>
                     </div>
-                    <div className="footer-social-icon" style={{ backgroundColor: "#171515" }}>
+                    <div
+                        className="footer-social-icon"
+                        style={{ backgroundColor: "#171515" }}
+                        onClick={() => onSocialBtnClick("https://github.com/sotm-asia")}
+                    >
                         <i className="fa-brands fa-github"></i>
                     </div>
                 </div>

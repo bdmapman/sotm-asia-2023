@@ -4,7 +4,9 @@ import { ChildMasterPage } from "../pages/ChildPages/ChildMasterPage.component";
 import { HomepageComponent } from "../pages/Homepage/homepage.component";
 import { ContentTexts } from "./content_texts";
 
+import { VenueMap } from "../pages/PageElements/VenueMap.component";
 import {Page404} from '../pages/PageElements/Page404.component'
+import {CreditsElement} from '../pages/ChildPages/ChildPageElements/CreditsElement.components'
 
 import ic404Thumb from "../../assets/bg-svg/ic-404-thumb.svg";
 
@@ -45,14 +47,19 @@ export const ContentComponent = () => {
                     path="/attending/getting-to-bangkok"
                     element={<ChildMasterPage contents={ContentTexts.attending.gettingBangkok} />}
                 ></Route>
-                <Route path="/attending/venue" element={<ChildMasterPage contents={ContentTexts.attending.venue} />}></Route>
+                <Route path="/attending/venue" element={<ChildMasterPage contents={ContentTexts.attending.venue} childElement={<VenueMap />} />}></Route>
 
-                <Route path="/schedule/keynote" element={<ChildMasterPage contents={ContentTexts.schedule.keynote} />}></Route>
+                <Route path="/conference/keynote" element={<ChildMasterPage contents={ContentTexts.conference.keynote} />}></Route>
+
                 <Route
-                    path="/schedule/program-schedule"
-                    element={<ChildMasterPage contents={ContentTexts.schedule.programSchedule} />}
+                    path="/conference/speakers"
+                    element={<ChildMasterPage contents={ContentTexts.conference.speakers} />}
                 ></Route>
-                <Route path="/schedule/social-events" element={<ChildMasterPage contents={ContentTexts.schedule.socialEvents} />}></Route>
+                <Route
+                    path="/conference/program-schedule"
+                    element={<ChildMasterPage contents={ContentTexts.conference.programSchedule} />}
+                ></Route>
+                <Route path="/conference/social-events" element={<ChildMasterPage contents={ContentTexts.conference.socialEvents} />}></Route>
 
                 <Route
                     path="/sponsors/call-for-sponsors"
@@ -66,6 +73,9 @@ export const ContentComponent = () => {
                 <Route path="/news/conference-news" element={<ChildMasterPage contents={ContentTexts.news.confNews} />}></Route>
                 <Route path="/news/announcement" element={<ChildMasterPage contents={ContentTexts.news.confAnnounement} />}></Route>
                 <Route path="/news/faqs" element={<ChildMasterPage contents={ContentTexts.news.faqs} />}></Route>
+                
+                <Route path="/credits" element={<ChildMasterPage contents={ContentTexts.footerLinks.credits} childElement={<CreditsElement />} />}></Route>
+                <Route path="/contact" element={<ChildMasterPage contents={ContentTexts.footerLinks.contact} />}></Route>
 
                 <Route path="/404" element={<ChildMasterPage contents={ContentTexts.error.routeError}  thumb={ic404Thumb} childElement={<Page404 />}  />}></Route>
                 <Route path="*" element={<Navigate to="/404"/>}></Route>

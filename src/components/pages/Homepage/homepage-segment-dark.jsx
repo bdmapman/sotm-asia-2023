@@ -1,11 +1,20 @@
 import React from "react";
 import "./homepage.styles.css";
 import { Image, Button } from "antd";
+import { useNavigate } from "react-router-dom";
 import bgContourLight from "../../../assets/2023-bg-topo.png";
 import SegmentDivider from "../../../assets/bg-svg/segment-divider-top.svg";
 
 export const HomepageSegmentDark = (props) => {
     const contents = props.contents;
+    let navigate = useNavigate();
+    const onBtnClick = (path) => {
+        if (path.includes('http')) {
+            window.open(path, "_blank", "noopener,noreferrer")
+        } else {
+            navigate(path)
+        }
+    }
     return (
         <section className="homepage-segment homepage-segment-dark">
             <div>
@@ -25,17 +34,23 @@ export const HomepageSegmentDark = (props) => {
                     <div></div>
                 )}
             </div>
-            {contents.link ? (
+            {contents.email ? (
                 <div className="link-text">
-                    <a href={contents.link}>{contents.link}</a>
+                    <a href={contents.email}>{contents.email}</a>
                 </div>
             ) : (
                 <div></div>
             )}
             {props.elements ? <div>{props.elements}</div> : <div></div>}
             {contents.buttonText ? (
-                <div style={{padding: 40}}>
-                    <Button shape="round" type="primary" size="large" className="segment-button">
+                <div style={{ padding: 40 }}>
+                    <Button
+                        shape="round"
+                        type="primary"
+                        size="large"
+                        className="segment-button"
+                        onClick={() => onBtnClick(contents.link)}
+                    >
                         {contents.buttonText}
                     </Button>
                 </div>

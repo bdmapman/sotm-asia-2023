@@ -27,7 +27,7 @@ export const HomepageComponent = () => {
             <HomepageSegmentDark contents={ContentTexts.homepage.proposal} headerImage={icPrposal} elements={<ProposalTypes />} />
             <HomepageSegmentLight contents={ContentTexts.homepage.sponsor} headerImage={icSponsor} topDivider={true}/>
             <HomepageSegmentDark contents={ContentTexts.homepage.speaker} headerImage={icSpeaker} elements= {<SpeakersList />} />
-            <HomepageSegmentLight contents={ContentTexts.homepage.schedule} headerImage={icProgramSchedule} elements={<ScheduleTab />}  topDivider={true} />
+            <HomepageSegmentLight contents={ContentTexts.homepage.conference} headerImage={icProgramSchedule} elements={<ScheduleTab />}  topDivider={true} />
             <HomepageSegmentDark contents={ContentTexts.homepage.news} headerImage={icNews} />
             <HomepageSegmentLight contents={ContentTexts.homepage.venue} elements={<VenueMap />}  topDivider={true} />
 
